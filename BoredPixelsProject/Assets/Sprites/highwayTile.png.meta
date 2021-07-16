@@ -1,0 +1,1324 @@
+fileFormatVersion: 2
+guid: 62e5b11571fbe9d45aebd486086176f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6482308600954656385
+    second: highwayTile_0
+  - first:
+      213: -3295508380957801552
+    second: highwayTile_1
+  - first:
+      213: -6519918850749531563
+    second: highwayTile_2
+  - first:
+      213: -2753913999216208559
+    second: highwayTile_3
+  - first:
+      213: 2956036983160004507
+    second: highwayTile_4
+  - first:
+      213: -8473664212337490066
+    second: highwayTile_5
+  - first:
+      213: 2824113084815388051
+    second: highwayTile_6
+  - first:
+      213: -428441349341914216
+    second: highwayTile_7
+  - first:
+      213: 8785620668246631264
+    second: highwayTile_8
+  - first:
+      213: -1607086362637893298
+    second: highwayTile_9
+  - first:
+      213: 6997079535063342710
+    second: highwayTile_10
+  - first:
+      213: -4016645858197928833
+    second: highwayTile_11
+  - first:
+      213: 7674921626609927257
+    second: highwayTile_12
+  - first:
+      213: 8961563901012940062
+    second: highwayTile_13
+  - first:
+      213: 2148011644329177436
+    second: highwayTile_14
+  - first:
+      213: -8307219834037831174
+    second: highwayTile_15
+  - first:
+      213: -1962126095267033662
+    second: highwayTile_16
+  - first:
+      213: -6515976325207107747
+    second: highwayTile_17
+  - first:
+      213: -756459003496958279
+    second: highwayTile_18
+  - first:
+      213: 8865201306442486544
+    second: highwayTile_19
+  - first:
+      213: 5303029695722011453
+    second: highwayTile_20
+  - first:
+      213: 4365669354547841335
+    second: highwayTile_21
+  - first:
+      213: 7251428501073470255
+    second: highwayTile_22
+  - first:
+      213: 7164804534891914709
+    second: highwayTile_23
+  - first:
+      213: 957759212219797644
+    second: highwayTile_24
+  - first:
+      213: 8688812391455436133
+    second: highwayTile_25
+  - first:
+      213: -213741542785820440
+    second: highwayTile_26
+  - first:
+      213: 2429514464414966047
+    second: highwayTile_27
+  - first:
+      213: -8827252394383832037
+    second: highwayTile_28
+  - first:
+      213: -8308917592433488659
+    second: highwayTile_29
+  - first:
+      213: 6764246684609192840
+    second: highwayTile_30
+  - first:
+      213: 6020291233301000280
+    second: highwayTile_31
+  - first:
+      213: -1381337558115312006
+    second: highwayTile_32
+  - first:
+      213: -650060896187128985
+    second: highwayTile_33
+  - first:
+      213: -5757216453949799069
+    second: highwayTile_34
+  - first:
+      213: -3438867182146052550
+    second: highwayTile_35
+  - first:
+      213: 4266858469943765841
+    second: highwayTile_36
+  - first:
+      213: -617215445252650939
+    second: highwayTile_37
+  - first:
+      213: 304216586264528592
+    second: highwayTile_38
+  - first:
+      213: -3277541805341492701
+    second: highwayTile_39
+  - first:
+      213: 7870289530216984206
+    second: highwayTile_40
+  - first:
+      213: 1183118210659606512
+    second: highwayTile_41
+  - first:
+      213: -5593514961570323988
+    second: highwayTile_42
+  - first:
+      213: 89108835252665442
+    second: highwayTile_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: highwayTile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1869c5ce359c5f950800000000000000
+      internalID: 6482308600954656385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -4}
+        - {x: -8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b300be76900442d0800000000000000
+      internalID: -3295508380957801552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a73b869589485a0800000000000000
+      internalID: -6519918850749531563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1551ebefec128c9d0800000000000000
+      internalID: -2753913999216208559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f5b2479f3f50920800000000000000
+      internalID: 2956036983160004507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+        - {x: -8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e670fa55b4f776a80800000000000000
+      internalID: -8473664212337490066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d24f943e3413720800000000000000
+      internalID: 2824113084815388051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd26ddcdedd0af0800000000000000
+      internalID: -428441349341914216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063ab26137bcce970800000000000000
+      internalID: 8785620668246631264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410897c77b72b9e0800000000000000
+      internalID: -1607086362637893298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e1b98d3ce9a1160800000000000000
+      internalID: 6997079535063342710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7481918fd10248c0800000000000000
+      internalID: -4016645858197928833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544c015e8cc28a60800000000000000
+      internalID: 7674921626609927257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1517d733eedd5c70800000000000000
+      internalID: 8961563901012940062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51b4a9b5354fcd10800000000000000
+      internalID: 2148011644329177436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af978111393d6bc80800000000000000
+      internalID: -8307219834037831174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd851f46b025c4e0800000000000000
+      internalID: -1962126095267033662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57dc2b2e0a9295a0800000000000000
+      internalID: -6515976325207107747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6fa615b848085f0800000000000000
+      internalID: -756459003496958279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01355dc4e95870b70800000000000000
+      internalID: 8865201306442486544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bbbde5965289940800000000000000
+      internalID: 5303029695722011453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -4}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73902acc529f59c30800000000000000
+      internalID: 4365669354547841335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_22
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a0a05dcf32a460800000000000000
+      internalID: 7251428501073470255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5275383cf7e6360800000000000000
+      internalID: 7164804534891914709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8018b8dde4aa4d00800000000000000
+      internalID: 957759212219797644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da6b0b5dcd49870800000000000000
+      internalID: 8688812391455436133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_26
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d1840333a80df0800000000000000
+      internalID: -213741542785820440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11a024888e57b120800000000000000
+      internalID: 2429514464414966047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c090257bc4f7580800000000000000
+      internalID: -8827252394383832037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec0203e87bc0bc80800000000000000
+      internalID: -8308917592433488659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883ae39658e6fdd50800000000000000
+      internalID: 6764246684609192840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850fd45dafe5c8350800000000000000
+      internalID: 6020291233301000280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e91ad3fc084dce0800000000000000
+      internalID: -1381337558115312006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763e4602f058af6f0800000000000000
+      internalID: -650060896187128985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_34
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365c94f53224a10b0800000000000000
+      internalID: -5757216453949799069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e9f6a8480b640d0800000000000000
+      internalID: -3438867182146052550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b6ddfeb2de63b30800000000000000
+      internalID: 4266858469943765841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548c4db92d53f67f0800000000000000
+      internalID: -617215445252650939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d644179f5bc83400800000000000000
+      internalID: 304216586264528592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ab02cd715d382d0800000000000000
+      internalID: -3277541805341492701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_40
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2f0011a2e83d60800000000000000
+      internalID: 7870289530216984206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff59a18eb74b6010800000000000000
+      internalID: 1183118210659606512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1a4c537c7df52b0800000000000000
+      internalID: -5593514961570323988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: highwayTile_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c759773049c3100800000000000000
+      internalID: 89108835252665442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
