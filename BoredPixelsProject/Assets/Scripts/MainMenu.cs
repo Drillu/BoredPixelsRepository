@@ -8,6 +8,8 @@ public class MainMenu : MonoBehaviour
     Animator animator;
     public float transTime = 1f;
 
+    public GameObject menu;
+
     public Animator carAnimator;
 
     public GameObject ground;
@@ -49,6 +51,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayButton()
     {
+        menu.SetActive(false);
         slowDown = true;
         StartCoroutine(KickCat());
         //StartCoroutine(LoadLevel());
