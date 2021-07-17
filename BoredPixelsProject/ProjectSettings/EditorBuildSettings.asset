@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 01a10f0ec6cd69d4dbf93a77433abce7
   - enabled: 1
-    path: Assets/Scenes/Desert.unity
+    path: Assets/Scenes/Highway.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
