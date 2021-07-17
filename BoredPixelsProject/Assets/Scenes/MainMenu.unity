@@ -864,6 +864,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transTime: 1
+  carAnimator: {fileID: 129236606}
+  ground: {fileID: 1303829437}
+  background1: {fileID: 1165312054}
+  background2: {fileID: 2032875169}
 --- !u!1 &630169367
 GameObject:
   m_ObjectHideFlags: 0
