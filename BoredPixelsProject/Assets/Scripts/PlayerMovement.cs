@@ -9,7 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 40f;
 
     float horizontalMove = 0f;
-    bool walking = false;
     bool jump = false;
     bool crouch = false;
     
@@ -24,18 +23,17 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetAxisRaw("Horizontal")!=0)
         {
-            walking = true;
             animator.SetBool("isWalking",true);
         }
         else
         {
-            walking = false;
             animator.SetBool("isWalking",false);
         }
 
         if(Input.GetButtonDown("Jump"))
         {
             jump = true;
+            animator.SetTrigger("isJumping");
         }
 
         if(Input.GetButtonDown("Crouch"))
@@ -47,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
             animator.SetBool("isCrouching",false);
+            animator.ResetTrigger("isJumping");
         }
     }
 
