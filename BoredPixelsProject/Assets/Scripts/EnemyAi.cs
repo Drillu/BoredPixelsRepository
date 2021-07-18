@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyAi : MonoBehaviour
 {
@@ -8,14 +9,18 @@ public class EnemyAi : MonoBehaviour
     public int damage;
     public float cooldown;
     public float attackTime;
+    public float health;
 
     public Vector2 targetRange;
     public float patrolRange;
 
     public float speed;
+    public float runSpeed;
 
     public PlayerController controller;
     public GameObject player;
+    public Slider slider;
+    public Vector3 healthBarOffset;
 
     private Vector3 startingPosition;
     private int direction = 1;
@@ -30,6 +35,8 @@ public class EnemyAi : MonoBehaviour
         startingPosition = transform.position;
         patrolState = true;
         readyToAttack = true;
+
+        slider.maxValue = health;
     }
 
     void Update()
@@ -44,6 +51,9 @@ public class EnemyAi : MonoBehaviour
             patrolState = true;
             chaseState = false;
         }
+
+        slider.value = health;
+        slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + healthBarOffset);
     }
 
     void FixedUpdate()
@@ -73,7 +83,7 @@ public class EnemyAi : MonoBehaviour
                 StartCoroutine(Attack());
             }
 
-            controller.Move(speed * direction * Time.fixedDeltaTime, false, false);
+            controller.Move(runSpeed * direction * Time.fixedDeltaTime, false, false);
 
         }
         

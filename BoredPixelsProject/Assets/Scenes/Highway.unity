@@ -4373,6 +4373,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1578102686893495071, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -2.949998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578102686893495071, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578102686893495071, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.024997711
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578102686893495071, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_RootOrder
@@ -4428,15 +4448,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+    - target: {fileID: 3513857544924429813, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: speed
-      value: 180
+      propertyPath: m_SizeDelta.x
+      value: 80
       objectReference: {fileID: 0}
-    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+    - target: {fileID: 3513857544924429813, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: damage
-      value: 2
+      propertyPath: m_SizeDelta.y
+      value: 12.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5074951142868193332, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -4445,23 +4470,40 @@ PrefabInstance:
       objectReference: {fileID: 380481496}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: cooldown
-      value: 4
-      objectReference: {fileID: 0}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 7652494711439668110}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: attackTime
-      value: 1
+      propertyPath: healthBarOffset.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+    - target: {fileID: 6250022957353128871, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: attackRange
-      value: 2
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+    - target: {fileID: 6250022957353128871, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: targetRange.x
-      value: 8
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6362465813635799377, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1073318234}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
+--- !u!114 &7652494711439668110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5074951142868193332, guid: 0ff104105556b054a966b67f0c18d00b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7652494711439668109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

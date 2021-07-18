@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5541271037436550830}
   - component: {fileID: 5541271037436550826}
   - component: {fileID: 5541271037436550829}
+  - component: {fileID: 3441340134179115821}
   - component: {fileID: 5541271037436550825}
   - component: {fileID: 5541271037436550804}
   - component: {fileID: 5541271037436550824}
@@ -162,6 +163,32 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.36}
   serializedVersion: 2
   m_Radius: 0.5564364
+--- !u!61 &3441340134179115821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5541271037436550828}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.8, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.25, y: 1.875}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1.875}
+  m_EdgeRadius: 0
 --- !u!50 &5541271037436550825
 Rigidbody2D:
   serializedVersion: 4
@@ -245,6 +272,9 @@ MonoBehaviour:
   controller: {fileID: 5541271037436550824}
   animator: {fileID: 5541271037436550804}
   speed: 200
+  lives: 9
+  damage: 1
+  cooldown: 1
 --- !u!1 &5541271037616294721
 GameObject:
   m_ObjectHideFlags: 0
