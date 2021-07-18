@@ -9326,8 +9326,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 626316131}
     m_Modifications:
     - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
-      propertyPath: messageDistance
-      value: 5
+      propertyPath: messageWaitTime
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogueStartSide
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: miau
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: shut up!
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: miauuu miauuu
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: go away little catty
       objectReference: {fileID: 0}
     - target: {fileID: 187923773230874920, guid: 6907e9f2b5e1940498e3f7b63d156dc0,
         type: 3}
