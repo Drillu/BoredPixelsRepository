@@ -4435,9 +4435,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
+      propertyPath: damage
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 380481496}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: cooldown
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: attackTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: attackRange
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: targetRange.x
