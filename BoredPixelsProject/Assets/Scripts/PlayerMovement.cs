@@ -12,6 +12,10 @@ public class PlayerMovement : MonoBehaviour
     public int damage;
     public float cooldown;
 
+    public GameObject gameOverMenu;
+
+    private bool gameOver;
+
     private bool readyToAttack;
 
     float horizontalMove = 0f;
@@ -20,9 +24,11 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
         lives = 9;
+        gameOver = false;
         readyToAttack = true;
+
+        animator = gameObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -55,6 +61,12 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isCrouching",false);
             animator.ResetTrigger("isJumping");
         }
+
+        if(lives<=0)
+        {
+            gameOverMenu.SetActive(true);
+            gameOver = true;
+        }
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -63,8 +75,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if(Input.GetButtonDown("Attack") && readyToAttack)
             {
+                animator.SetTrigger("isAttacking");
                 other.gameObject.GetComponent<EnemyAi>().health -= damage;
-                Debug.Log(other.gameObject.GetComponent<EnemyAi>().health);
                 readyToAttack = false;
                 StartCoroutine(Cooldown());
             }
@@ -73,8 +85,12 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
+        if(!gameOver)
+        {
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+            jump = false;
+        }
+        
     }
 
     IEnumerator Cooldown()
