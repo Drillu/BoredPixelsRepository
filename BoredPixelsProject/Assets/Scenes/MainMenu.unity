@@ -9334,20 +9334,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
+      propertyPath: dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
       propertyPath: dialogue.Array.data[0]
       value: miau
       objectReference: {fileID: 0}
     - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: shut up!
+      value: shut up stupid kitty
       objectReference: {fileID: 0}
     - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: miauuu miauuu
+      value: lep qoz
       objectReference: {fileID: 0}
     - target: {fileID: 931935352, guid: 6907e9f2b5e1940498e3f7b63d156dc0, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: go away little catty
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 187923773230874920, guid: 6907e9f2b5e1940498e3f7b63d156dc0,
         type: 3}

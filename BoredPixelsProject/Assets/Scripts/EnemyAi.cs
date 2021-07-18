@@ -52,6 +52,11 @@ public class EnemyAi : MonoBehaviour
             chaseState = false;
         }
 
+        if(health<=0)
+        {
+            Destroy(gameObject);
+        }
+
         slider.value = health;
         slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + healthBarOffset);
     }
