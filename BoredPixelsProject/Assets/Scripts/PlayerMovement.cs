@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public PlayerController controller;
     public Animator animator;
     public float speed = 40f;
+    public int lives;
 
     float horizontalMove = 0f;
     bool jump = false;
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         animator = gameObject.GetComponent<Animator>();
+        lives = 9;
     }
 
     void Update()
