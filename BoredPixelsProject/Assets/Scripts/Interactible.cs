@@ -13,12 +13,12 @@ public class Interactible : MonoBehaviour
     public Vector3 messageOffset;
     public UnityEvent Interact;
 
-    Animator animator;
+    public Animator animator;
 
     
     void Start()
     {
-        animator = GetComponent<Animator>();
+       // animator = GetComponent<Animator>();
     }
 
     void Update()

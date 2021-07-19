@@ -61,7 +61,7 @@ public class MainMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(lerpDuration);
         carAnimator.SetBool("kickCat", true);
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.5f);
         StartCoroutine(LoadLevel());
     }
 
