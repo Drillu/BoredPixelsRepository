@@ -63,7 +63,7 @@ public class EnemyAi : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(patrolState)
+        if(patrolState && !player.GetComponent<PlayerMovement>().gameOver)
         {
             controller.Move(speed * direction * Time.fixedDeltaTime, false, false);
             if((transform.position.x - startingPosition.x) * direction >= patrolRange)
@@ -72,7 +72,7 @@ public class EnemyAi : MonoBehaviour
             }
         }
 
-        if(chaseState)
+        if(chaseState && !player.GetComponent<PlayerMovement>().gameOver)
         {
             if(player.transform.position.x - transform.position.x > 0)
             {

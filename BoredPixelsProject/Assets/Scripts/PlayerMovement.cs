@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject gameOverMenu;
 
-    private bool gameOver;
+    public bool gameOver;
 
     private bool readyToAttack;
 
@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(lives<=0)
         {
+            animator.SetBool("isDied",true);
             gameOverMenu.SetActive(true);
             gameOver = true;
         }
