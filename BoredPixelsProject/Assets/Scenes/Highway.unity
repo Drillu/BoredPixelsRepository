@@ -678,7 +678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29943b203d4f3544982b8314f5cc2e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.8
+  parallaxEffectMultiplier: {x: 0, y: 0}
   backgroundSpeed: 0
 --- !u!212 &623946102
 SpriteRenderer:
@@ -759,6 +759,7 @@ GameObject:
   - component: {fileID: 649425800}
   - component: {fileID: 649425803}
   - component: {fileID: 649425802}
+  - component: {fileID: 649425804}
   m_Layer: 8
   m_Name: openBox
   m_TagString: Untagged
@@ -897,12 +898,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: {fileID: 404558702}
-  transTime: 1
   messageOffset: {x: 0, y: 1, z: 0}
   Interact:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 649425802}
+      - m_Target: {fileID: 649425804}
         m_MethodName: SleepInBox
         m_Mode: 1
         m_Arguments:
@@ -913,7 +913,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  animator: {fileID: 893757419}
 --- !u!95 &649425803
 Animator:
   serializedVersion: 3
@@ -933,6 +932,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &649425804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649425797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436348e4e4f6ef048b0d738828867a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transTime: 1
+  animator: {fileID: 893757419}
 --- !u!1 &888682436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29943b203d4f3544982b8314f5cc2e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.2
+  parallaxEffectMultiplier: {x: 0, y: 0}
   backgroundSpeed: 0
 --- !u!212 &1288509136
 SpriteRenderer:
@@ -6520,6 +6533,11 @@ PrefabInstance:
     - target: {fileID: 4919667713434389115, guid: daab579ea0c66f74f99136152c09bda8,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986101342764925895, guid: daab579ea0c66f74f99136152c09bda8,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5302546318086431757, guid: daab579ea0c66f74f99136152c09bda8,

@@ -18,7 +18,7 @@ public class EnemyAi : MonoBehaviour
     public float runSpeed;
 
     public PlayerController controller;
-    public GameObject player;
+    private GameObject player;
     public Slider slider;
     public Vector3 healthBarOffset;
 
@@ -36,9 +36,10 @@ public class EnemyAi : MonoBehaviour
     void Start()
     {
         startingPosition = transform.position;
-        animator = gameObject.GetComponent<Animator>();
+        if(animator) animator = gameObject.GetComponent<Animator>();
         patrolState = true;
         readyToAttack = true;
+        player =  GameObject.Find("Player");
 
         slider.maxValue = health;
     }
@@ -106,7 +107,7 @@ public class EnemyAi : MonoBehaviour
     IEnumerator Attack()
     {
         readyToAttack = false;
-        animator.SetTrigger("isAttacking");
+        if(animator) animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(attackTime);
         if(Vector2.Distance(player.transform.position, transform.position) < attackRange)
         {
@@ -123,7 +124,7 @@ public class EnemyAi : MonoBehaviour
 
     IEnumerator Die()
     {
-        animator.SetBool("isDied", true);
+        if(animator) animator.SetBool("isDied", true);
         isDied = true;
         yield return new WaitForSeconds(3);
         Destroy(gameObject);

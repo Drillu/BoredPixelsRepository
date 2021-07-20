@@ -2,23 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 
 public class Interactible : MonoBehaviour
 {
     public GameObject message;
-    public float transTime = 1f;
-
     public Vector3 messageOffset;
     public UnityEvent Interact;
-
-    public Animator animator;
 
     
     void Start()
     {
-       // animator = GetComponent<Animator>();
+       
     }
 
     void Update()
@@ -45,17 +40,5 @@ public class Interactible : MonoBehaviour
         {
             message.SetActive(false);
         }
-    }
-
-    public void SleepInBox()
-    {
-        StartCoroutine(SleepInBoxCoroutine());
-    }
-
-    public IEnumerator SleepInBoxCoroutine()
-    {
-        animator.SetTrigger("Trans");
-        yield return new WaitForSeconds(transTime);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
