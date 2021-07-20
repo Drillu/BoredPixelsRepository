@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 2163036573998151787
     second: ui_6
+  - first:
+      213: 8599436577718238185
+    second: ui_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -250,6 +253,27 @@ TextureImporter:
       bones: []
       spriteID: b687655cd46a40e10800000000000000
       internalID: 2163036573998151787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb75637106575770800000000000000
+      internalID: 8599436577718238185
       vertices: []
       indices: 
       edges: []
