@@ -276,6 +276,7 @@ MonoBehaviour:
   damage: 1
   cooldown: 1
   gameOverMenu: {fileID: 0}
+  gameOver: 0
 --- !u!1 &5541271037616294721
 GameObject:
   m_ObjectHideFlags: 0

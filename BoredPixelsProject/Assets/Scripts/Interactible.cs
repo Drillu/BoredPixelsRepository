@@ -10,6 +10,8 @@ public class Interactible : MonoBehaviour
     public Vector3 messageOffset;
     public UnityEvent Interact;
 
+    private bool interacted = false;
+
     
     void Start()
     {
@@ -23,12 +25,14 @@ public class Interactible : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if(other.name == "Player")
+        if(other.name == "Player" && !interacted)
         {
             message.SetActive(true);
             if(Input.GetButtonDown("Interact"))
             {
                 Interact.Invoke();
+                message.SetActive(false);
+                interacted = true;
             }
         }
         
@@ -36,7 +40,7 @@ public class Interactible : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if(other.name == "Player")
+        if(other.name == "Player" && !interacted)
         {
             message.SetActive(false);
         }

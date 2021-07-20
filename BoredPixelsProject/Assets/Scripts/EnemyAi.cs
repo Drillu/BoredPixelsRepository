@@ -36,7 +36,7 @@ public class EnemyAi : MonoBehaviour
     void Start()
     {
         startingPosition = transform.position;
-        if(animator) animator = gameObject.GetComponent<Animator>();
+        if(gameObject.GetComponent<Animator>() != null) animator = gameObject.GetComponent<Animator>();
         patrolState = true;
         readyToAttack = true;
         player =  GameObject.Find("Player");
@@ -107,7 +107,7 @@ public class EnemyAi : MonoBehaviour
     IEnumerator Attack()
     {
         readyToAttack = false;
-        if(animator) animator.SetTrigger("isAttacking");
+        if(animator != null) animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(attackTime);
         if(Vector2.Distance(player.transform.position, transform.position) < attackRange)
         {
@@ -124,7 +124,7 @@ public class EnemyAi : MonoBehaviour
 
     IEnumerator Die()
     {
-        if(animator) animator.SetBool("isDied", true);
+        if(animator != null) animator.SetBool("isDied", true);
         isDied = true;
         yield return new WaitForSeconds(3);
         Destroy(gameObject);
