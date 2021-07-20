@@ -28,11 +28,15 @@ public class EnemyAi : MonoBehaviour
     private bool patrolState;
     private bool chaseState;
 
-    private bool readyToAttack; 
+    private bool readyToAttack;
+    private bool isDied;
+
+    private Animator animator;
 
     void Start()
     {
         startingPosition = transform.position;
+        animator = gameObject.GetComponent<Animator>();
         patrolState = true;
         readyToAttack = true;
 
@@ -53,17 +57,22 @@ public class EnemyAi : MonoBehaviour
         }
 
         if(health<=0)
-        {
-            Destroy(gameObject);
+        {   
+            if(slider!=null) Destroy(slider.gameObject);
+            StartCoroutine(Die());
         }
 
-        slider.value = health;
-        slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + healthBarOffset);
+        if(slider!=null)
+        {
+            slider.value = health;
+            slider.transform.position = Camera.main.WorldToScreenPoint(transform.position + healthBarOffset);
+        }
+        
     }
 
     void FixedUpdate()
     {
-        if(patrolState && !player.GetComponent<PlayerMovement>().gameOver)
+        if(patrolState && !player.GetComponent<PlayerMovement>().gameOver && !isDied)
         {
             controller.Move(speed * direction * Time.fixedDeltaTime, false, false);
             if((transform.position.x - startingPosition.x) * direction >= patrolRange)
@@ -72,7 +81,7 @@ public class EnemyAi : MonoBehaviour
             }
         }
 
-        if(chaseState && !player.GetComponent<PlayerMovement>().gameOver)
+        if(chaseState && !player.GetComponent<PlayerMovement>().gameOver && !isDied)
         {
             if(player.transform.position.x - transform.position.x > 0)
             {
@@ -97,6 +106,7 @@ public class EnemyAi : MonoBehaviour
     IEnumerator Attack()
     {
         readyToAttack = false;
+        animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(attackTime);
         if(Vector2.Distance(player.transform.position, transform.position) < attackRange)
         {
@@ -109,5 +119,13 @@ public class EnemyAi : MonoBehaviour
     {
         yield return new WaitForSeconds(cooldown);
         readyToAttack = true;
+    }
+
+    IEnumerator Die()
+    {
+        animator.SetBool("isDied", true);
+        isDied = true;
+        yield return new WaitForSeconds(3);
+        Destroy(gameObject);
     }
 }
