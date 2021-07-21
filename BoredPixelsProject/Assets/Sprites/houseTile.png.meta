@@ -137,6 +137,12 @@ TextureImporter:
   - first:
       213: 2364784254608424943
     second: houseTile_44
+  - first:
+      213: 10305899177592980
+    second: houseTile_45
+  - first:
+      213: -2260132056278450052
+    second: houseTile_46
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1314,7 +1320,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1322,6 +1328,48 @@ TextureImporter:
       bones: []
       spriteID: fef3f5a10c661d020800000000000000
       internalID: 2364784254608424943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houseTile_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4984293292d942000800000000000000
+      internalID: 10305899177592980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houseTile_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70cc089ed562a0e0800000000000000
+      internalID: -2260132056278450052
       vertices: []
       indices: 
       edges: []
