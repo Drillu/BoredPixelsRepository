@@ -64,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(lives<=0 || gameOver)
         {
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             animator.SetBool("isDied",true);
             gameOverMenu.SetActive(true);
             gameOver = true;

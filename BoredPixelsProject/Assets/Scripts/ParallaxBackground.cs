@@ -36,12 +36,12 @@ public class ParallaxBackground : MonoBehaviour
             transform.position = new Vector3(cameraTransform.position.x + offsetPositionX, transform.position.y);
         }
 
-        if(Mathf.Abs(cameraTransform.position.y - transform.position.y) >= textureUnitSizeY)
+        /*if(Mathf.Abs(cameraTransform.position.y - transform.position.y) >= textureUnitSizeY)
         {
             //Debug.Log("Done!");
             float offsetPositionY = (cameraTransform.position.y - transform.position.y) % textureUnitSizeY;
             transform.position = new Vector3(transform.position.x , cameraTransform.position.y + offsetPositionY);
-        }
+        }*/
     }
 
     void FixedUpdate()

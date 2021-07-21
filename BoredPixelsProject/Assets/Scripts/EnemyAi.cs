@@ -59,6 +59,7 @@ public class EnemyAi : MonoBehaviour
 
         if(health<=0 || isDied)
         {   
+            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             if(slider!=null) Destroy(slider.gameObject);
             StartCoroutine(Die());
         }

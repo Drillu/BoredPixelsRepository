@@ -1,16 +1,16 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!95 &18786834
+--- !u!95 &4379903189859564939
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 491432511286055887}
+  m_GameObject: {fileID: 536108494164654162}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a9c3053ea07b95a4fae29c26b6c4aeda, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -19,54 +19,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1001 &1569667075037350299
+--- !u!1001 &1470948050191131142
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 395854576, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 2ccf3925a5723f1488b7e5eb6af42003, type: 2}
-    - target: {fileID: 395854576, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_LinearDrag
-      value: 100
+    - target: {fileID: 395854577, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
+      propertyPath: m_Radius
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 395854577, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_Size.x
-      value: 1.0431348
-      objectReference: {fileID: 0}
-    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.2881137
-      objectReference: {fileID: 0}
-    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
       propertyPath: m_Offset.y
-      value: 0.19999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.0625
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1376263792101612116, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_Name
-      value: Dog
-      objectReference: {fileID: 0}
-    - target: {fileID: 3306424546297051548, guid: 0ff104105556b054a966b67f0c18d00b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      value: Crocodile
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -75,18 +46,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
-        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: -13.9
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -130,33 +96,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: damage
-      value: 3
+      propertyPath: speed
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: health
+      propertyPath: damage
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: cooldown
-      value: 4
+      propertyPath: health
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
-      propertyPath: attackTime
-      value: 0.5
+      propertyPath: cooldown
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: runSpeed
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: attackRange
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
-        type: 3}
-      propertyPath: targetRange.x
-      value: 10
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6250022957353128871, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -172,18 +138,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7218554993697430657, guid: 7ace5bc4cf09e984f9fb2b5b4964f95e,
+      objectReference: {fileID: -2963178528717372675, guid: 9c97c1dd8c3c57b46a5bafc665f59021,
         type: 3}
-    - target: {fileID: 7865088920230559019, guid: 0ff104105556b054a966b67f0c18d00b,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
---- !u!1 &491432511286055887 stripped
+--- !u!1 &536108494164654162 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1376263792101612116, guid: 0ff104105556b054a966b67f0c18d00b,
     type: 3}
-  m_PrefabInstance: {fileID: 1569667075037350299}
+  m_PrefabInstance: {fileID: 1470948050191131142}
   m_PrefabAsset: {fileID: 0}
