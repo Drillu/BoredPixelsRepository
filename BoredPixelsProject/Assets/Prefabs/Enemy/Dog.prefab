@@ -29,14 +29,22 @@ PrefabInstance:
     - target: {fileID: 395854576, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6200000, guid: 2ccf3925a5723f1488b7e5eb6af42003, type: 2}
     - target: {fileID: 395854577, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
       propertyPath: m_Offset.x
       value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0431348
+      objectReference: {fileID: 0}
+    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
       propertyPath: m_Offset.x
-      value: 0.28
+      value: 0.2881137
+      objectReference: {fileID: 0}
+    - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.19999999
       objectReference: {fileID: 0}
     - target: {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -49,7 +57,7 @@ PrefabInstance:
     - target: {fileID: 1376263792101612116, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Dog
       objectReference: {fileID: 0}
     - target: {fileID: 3306424546297051548, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}

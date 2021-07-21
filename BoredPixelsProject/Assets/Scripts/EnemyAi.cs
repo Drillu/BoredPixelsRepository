@@ -29,7 +29,7 @@ public class EnemyAi : MonoBehaviour
     private bool chaseState;
 
     private bool readyToAttack;
-    private bool isDied;
+    public bool isDied;
 
     private Animator animator;
 
@@ -57,7 +57,7 @@ public class EnemyAi : MonoBehaviour
             chaseState = false;
         }
 
-        if(health<=0)
+        if(health<=0 || isDied)
         {   
             if(slider!=null) Destroy(slider.gameObject);
             StartCoroutine(Die());

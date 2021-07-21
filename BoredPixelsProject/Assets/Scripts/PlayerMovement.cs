@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             animator.ResetTrigger("isJumping");
         }
 
-        if(lives<=0)
+        if(lives<=0 || gameOver)
         {
             animator.SetBool("isDied",true);
             gameOverMenu.SetActive(true);

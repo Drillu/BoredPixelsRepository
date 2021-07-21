@@ -19,6 +19,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1396693932
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2445175400663456588}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.75, y: 0.83}
+  m_Direction: 1
 --- !u!1001 &3672257455106244888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61,12 +77,12 @@ PrefabInstance:
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.895794
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.23042178
+      value: -9.74
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -151,6 +167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 395854578, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
+    - {fileID: 395854577, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0ff104105556b054a966b67f0c18d00b, type: 3}
 --- !u!1 &2445175400663456588 stripped
 GameObject:
