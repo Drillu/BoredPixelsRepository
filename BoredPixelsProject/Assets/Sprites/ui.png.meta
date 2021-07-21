@@ -26,6 +26,9 @@ TextureImporter:
   - first:
       213: 8599436577718238185
     second: ui_7
+  - first:
+      213: -9080700020481880845
+    second: ui_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,7 +118,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 42
+        y: 64
         width: 48
         height: 16
       alignment: 0
@@ -136,7 +139,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 49
-        y: 22
+        y: 44
         width: 48
         height: 19
       alignment: 0
@@ -157,7 +160,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 22
+        y: 44
         width: 48
         height: 19
       alignment: 0
@@ -178,7 +181,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 49
-        y: 45
+        y: 67
         width: 9
         height: 9
       alignment: 0
@@ -199,7 +202,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 45
+        y: 67
         width: 9
         height: 9
       alignment: 0
@@ -220,7 +223,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
+        y: 34
         width: 52
         height: 8
       alignment: 0
@@ -241,7 +244,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 6
+        y: 28
         width: 50
         height: 5
       alignment: 0
@@ -262,11 +265,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 71
-        y: 45
+        y: 67
         width: 7
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,6 +277,27 @@ TextureImporter:
       bones: []
       spriteID: 9eb75637106575770800000000000000
       internalID: 8599436577718238185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc8b47617fdaf180800000000000000
+      internalID: -9080700020481880845
       vertices: []
       indices: 
       edges: []

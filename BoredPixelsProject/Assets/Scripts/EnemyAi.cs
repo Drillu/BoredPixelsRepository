@@ -22,6 +22,9 @@ public class EnemyAi : MonoBehaviour
     public Slider slider;
     public Vector3 healthBarOffset;
 
+    public bool isBoss = false;
+    [SerializeField] private GameObject access;
+
     private Vector3 startingPosition;
     private int direction = 1;
 
@@ -40,6 +43,7 @@ public class EnemyAi : MonoBehaviour
         patrolState = true;
         readyToAttack = true;
         player =  GameObject.Find("Player");
+        if(access!=null) access.SetActive(false);
 
         slider.maxValue = health;
     }
@@ -62,6 +66,7 @@ public class EnemyAi : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             if(slider!=null) Destroy(slider.gameObject);
             StartCoroutine(Die());
+            if(access!=null) access.SetActive(true);
         }
 
         if(slider!=null)
