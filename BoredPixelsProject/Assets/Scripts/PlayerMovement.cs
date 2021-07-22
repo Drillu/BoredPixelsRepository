@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject gameOverMenu;
 
     public bool gameOver;
+    public bool gameFinished;
 
     private bool readyToAttack;
 
@@ -87,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(!gameOver)
+        if(!gameOver && !gameFinished)
         {
             controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
             jump = false;
