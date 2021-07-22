@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 413c054d3081698438e5f98227bb45ab
+guid: 358cd78269cd0824291d51665d579826
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7976600586785634493
-    second: BigDogDeath_0
+      213: -185372573536991270
+    second: railyard_0
   - first:
-      213: -2877067854031639192
-    second: BigDogDeath_1
+      213: 456139769092697120
+    second: railyard_1
   - first:
-      213: -3530058855532313095
-    second: BigDogDeath_2
+      213: -4724843798634877071
+    second: railyard_2
   - first:
-      213: -7301252736564869702
-    second: BigDogDeath_3
+      213: 4454847742498376622
+    second: railyard_3
+  - first:
+      213: -9137772576995829082
+    second: railyard_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BigDogDeath_0
+      name: railyard_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 46
-        height: 35
+        width: 97
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,41 +116,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db8b78ac8f392be60800000000000000
-      internalID: 7976600586785634493
+      spriteID: ad74a3360ac6d6df0800000000000000
+      internalID: -185372573536991270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BigDogDeath_1
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 0
-        width: 46
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86dafb5b70a9218d0800000000000000
-      internalID: -2877067854031639192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BigDogDeath_2
+      name: railyard_1
       rect:
         serializedVersion: 2
         x: 97
         y: 0
-        width: 46
-        height: 35
+        width: 15
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f546c78c26b20fc0800000000000000
-      internalID: -3530058855532313095
+      spriteID: 02ce2b804b8845600800000000000000
+      internalID: 456139769092697120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BigDogDeath_3
+      name: railyard_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 0
-        width: 46
-        height: 35
+        x: 112
+        y: 1
+        width: 484
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +158,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5c3bdd15dbcaa90800000000000000
-      internalID: -7301252736564869702
+      spriteID: 17f2923399bfd6eb0800000000000000
+      internalID: -4724843798634877071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: railyard_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 663
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab01144b6cc2dd30800000000000000
+      internalID: 4454847742498376622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: railyard_4
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1
+        width: 135
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa9bd5514c103180800000000000000
+      internalID: -9137772576995829082
       vertices: []
       indices: 
       edges: []

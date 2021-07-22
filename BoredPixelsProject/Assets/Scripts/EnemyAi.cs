@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class EnemyAi : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class EnemyAi : MonoBehaviour
     public Vector3 healthBarOffset;
 
     public bool isBoss = false;
-    [SerializeField] private GameObject access;
+    [SerializeField] public UnityEvent Access;
 
     private Vector3 startingPosition;
     private int direction = 1;
@@ -43,7 +44,6 @@ public class EnemyAi : MonoBehaviour
         patrolState = true;
         readyToAttack = true;
         player =  GameObject.Find("Player");
-        if(access!=null) access.SetActive(false);
 
         slider.maxValue = health;
     }
@@ -66,7 +66,7 @@ public class EnemyAi : MonoBehaviour
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             if(slider!=null) Destroy(slider.gameObject);
             StartCoroutine(Die());
-            if(access!=null) access.SetActive(true);
+            if(Access!=null) Access.Invoke();
         }
 
         if(slider!=null)
