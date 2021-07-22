@@ -32342,6 +32342,11 @@ PrefabInstance:
       propertyPath: m_enableVertexGradient
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2838582287417170445, guid: daab579ea0c66f74f99136152c09bda8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3829083373311118123, guid: daab579ea0c66f74f99136152c09bda8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -76792,6 +76797,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
+        type: 3}
+      propertyPath: attackRange
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
         type: 3}
