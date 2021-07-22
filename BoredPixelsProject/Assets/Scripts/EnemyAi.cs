@@ -34,6 +34,7 @@ public class EnemyAi : MonoBehaviour
 
     private bool readyToAttack;
     public bool isDied;
+    private bool givedLife;
 
     private Animator animator;
 
@@ -44,6 +45,7 @@ public class EnemyAi : MonoBehaviour
         patrolState = true;
         readyToAttack = true;
         player =  GameObject.Find("Player");
+        givedLife = false;
 
         slider.maxValue = health;
     }
@@ -63,6 +65,13 @@ public class EnemyAi : MonoBehaviour
 
         if(health<=0 || isDied)
         {   
+
+            if(player.GetComponent<PlayerMovement>().lifes < 9 && !givedLife)
+            {
+                player.GetComponent<PlayerMovement>().lifes += 1;
+                givedLife = true;
+            }
+
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             if(slider!=null) Destroy(slider.gameObject);
             StartCoroutine(Die());
@@ -117,7 +126,7 @@ public class EnemyAi : MonoBehaviour
         yield return new WaitForSeconds(attackTime);
         if(Vector2.Distance(player.transform.position, transform.position) < attackRange)
         {
-            player.GetComponent<PlayerMovement>().lives -= damage;
+            player.GetComponent<PlayerMovement>().lifes -= damage;
         }
         StartCoroutine(Cooldown());
     }

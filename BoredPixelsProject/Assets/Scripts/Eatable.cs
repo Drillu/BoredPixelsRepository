@@ -29,9 +29,9 @@ public class Eatable : MonoBehaviour
             spawningEnemy = Instantiate(spawningEnemyPrefab);
             spawningEnemy.transform.position = transform.position + enemyOffset;
             spawningEnemy.name = "Enemy";
-            if(playerMovement.lives<9)
+            if(playerMovement.lifes<9)
             {
-                playerMovement.lives += 1;
+                playerMovement.lifes += 1;
             }
             eaten = true;
         }

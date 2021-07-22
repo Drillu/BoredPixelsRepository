@@ -20,14 +20,14 @@ public class livesPanel : MonoBehaviour
             hearts[i] = transform.GetChild(i);
         }
 
-        lives = player.GetComponent<PlayerMovement>().lives;
+        lives = player.GetComponent<PlayerMovement>().lifes;
         lastLives = lives;
     }
 
     
     void Update()
     {
-        lives = player.GetComponent<PlayerMovement>().lives;
+        lives = player.GetComponent<PlayerMovement>().lifes;
 
         if(lastLives!=lives)
         {

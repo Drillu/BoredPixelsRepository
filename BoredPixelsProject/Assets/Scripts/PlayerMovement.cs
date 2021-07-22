@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public PlayerController controller;
     public Animator animator;
     public float speed = 40f;
-    public int lives;
+    public int lifes;
 
     public int damage;
     public float cooldown;
@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        lives = 9;
+        lifes = 9;
         gameOver = false;
         readyToAttack = true;
 
@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
             animator.ResetTrigger("isJumping");
         }
 
-        if(lives<=0 || gameOver)
+        if(lifes<=0 || gameOver)
         {
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             animator.SetBool("isDied",true);
