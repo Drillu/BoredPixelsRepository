@@ -131,6 +131,7 @@ public class EnemyAi : MonoBehaviour
         {
             player.GetComponent<PlayerMovement>().lifes -= damage;
             FindObjectOfType<AudioManager>().Play("playerHurt");
+            if(animator != null) animator.SetTrigger("isAttacking");
         }
         StartCoroutine(Cooldown());
     }

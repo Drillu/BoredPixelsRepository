@@ -9558,7 +9558,7 @@ MonoBehaviour:
 
     PROGRAMMING
 
-    Unique
+    Nadir Alishly - Unique
 
     Drillu
 
@@ -9567,7 +9567,8 @@ MonoBehaviour:
 
     AnyoneIn
 
-    Unique
+    Nadir
+    Alishly - Unique
 
 
     MUSIC
@@ -76794,54 +76795,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
         type: 3}
-      propertyPath: access
-      value: 
-      objectReference: {fileID: 454407337}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: cooldown
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: attackRange
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
       propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 454407337}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5976501097521817766, guid: cf6d335c2519b58448c5b8dc3747888e,
-        type: 3}
-      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf6d335c2519b58448c5b8dc3747888e, type: 3}
 --- !u!1001 &2961855826442940969
@@ -77017,8 +76973,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3395359213879458870, guid: 22b3e7798d2e0614094c3948915c1b0f,
         type: 3}
+      propertyPath: attackTime
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3395359213879458870, guid: 22b3e7798d2e0614094c3948915c1b0f,
+        type: 3}
       propertyPath: attackRange
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3395359213879458870, guid: 22b3e7798d2e0614094c3948915c1b0f,
         type: 3}

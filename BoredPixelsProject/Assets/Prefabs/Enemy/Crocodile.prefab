@@ -37,7 +37,7 @@ PrefabInstance:
     - target: {fileID: 1376263792101612116, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: m_Name
-      value: Crocodile
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3425482239036960774, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -127,7 +127,7 @@ PrefabInstance:
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
       propertyPath: cooldown
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
@@ -136,8 +136,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
+      propertyPath: attackTime
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
       propertyPath: attackRange
-      value: 2.5
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
+      propertyPath: Access.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6250022957353128871, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}

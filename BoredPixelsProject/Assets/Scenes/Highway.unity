@@ -926,7 +926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29943b203d4f3544982b8314f5cc2e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: {x: 0, y: 0}
+  parallaxEffectMultiplier: {x: 0.8, y: 0}
   backgroundSpeed: 0
 --- !u!212 &623946102
 SpriteRenderer:
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29943b203d4f3544982b8314f5cc2e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: {x: 0, y: 0}
+  parallaxEffectMultiplier: {x: 0.2, y: 0}
   backgroundSpeed: 0
 --- !u!212 &1288509136
 SpriteRenderer:
