@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool gameFinished;
 
     private bool readyToAttack;
+    private bool died;
 
     float horizontalMove = 0f;
     bool jump = false;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         lifes = 9;
         gameOver = false;
         readyToAttack = true;
+        died = false;
 
         animator = gameObject.GetComponent<Animator>();
     }
@@ -49,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
             animator.SetTrigger("isJumping");
+            FindObjectOfType<AudioManager>().Play("playerJump");
         }
 
         if(Input.GetButtonDown("Crouch"))
@@ -65,10 +68,16 @@ public class PlayerMovement : MonoBehaviour
 
         if(lifes<=0 || gameOver)
         {
-            gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-            animator.SetBool("isDied",true);
-            gameOverMenu.SetActive(true);
-            gameOver = true;
+            if(!died)
+            {
+                FindObjectOfType<AudioManager>().Play("playerDie");
+                gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                animator.SetBool("isDied",true);
+                gameOverMenu.SetActive(true);
+                gameOver = true;
+                died = true;
+            }
+            
         }
     }
 
@@ -78,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if(Input.GetButtonDown("Attack") && readyToAttack)
             {
+                FindObjectOfType<AudioManager>().Play("playerAttack");
                 animator.SetTrigger("isAttacking");
                 other.gameObject.GetComponent<EnemyAi>().health -= damage;
                 readyToAttack = false;

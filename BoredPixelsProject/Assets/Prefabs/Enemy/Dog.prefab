@@ -130,6 +130,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
         type: 3}
+      propertyPath: type
+      value: dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087122955632577184, guid: 0ff104105556b054a966b67f0c18d00b,
+        type: 3}
       propertyPath: damage
       value: 3
       objectReference: {fileID: 0}

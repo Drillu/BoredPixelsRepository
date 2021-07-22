@@ -124,3 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openedSprite: {fileID: 6623719234781301212, guid: c1919efcef49d9a40b443415a390d23f,
     type: 3}
+  type: door

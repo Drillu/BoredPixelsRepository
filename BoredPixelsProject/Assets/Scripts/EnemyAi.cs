@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public class EnemyAi : MonoBehaviour
 {
+    public string type;
     public float attackRange;
     public int damage;
     public float cooldown;
@@ -70,6 +71,7 @@ public class EnemyAi : MonoBehaviour
             {
                 player.GetComponent<PlayerMovement>().lifes += 1;
                 givedLife = true;
+                FindObjectOfType<AudioManager>().Play(type + "Die");
             }
 
             gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -121,12 +123,14 @@ public class EnemyAi : MonoBehaviour
 
     IEnumerator Attack()
     {
+        FindObjectOfType<AudioManager>().Play(type + "Attack");
         readyToAttack = false;
         if(animator != null) animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(attackTime);
         if(Vector2.Distance(player.transform.position, transform.position) < attackRange)
         {
             player.GetComponent<PlayerMovement>().lifes -= damage;
+            FindObjectOfType<AudioManager>().Play("playerHurt");
         }
         StartCoroutine(Cooldown());
     }
