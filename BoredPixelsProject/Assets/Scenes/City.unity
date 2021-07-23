@@ -8106,7 +8106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: press "e" to eat eggs and earn +1 life
+  m_text: press "e" to eat eggs and earn +1 live
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: aa0654acf8da1774fa8c680eaf83ea04, type: 2}
   m_sharedMaterial: {fileID: -6688848127331729916, guid: aa0654acf8da1774fa8c680eaf83ea04,
@@ -32199,6 +32199,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 442431595, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: 'press "e" to eat dog food and earn +1 live
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 442431595, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -32231,6 +32237,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 880461240, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: 'press "e" to eat cheese and earn +1 live
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 880461240, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -32263,6 +32275,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1057018982, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: 'press "e" to eat cheese and earn +1 live
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1057018982, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -32279,6 +32297,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1440033729, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: 'press "e" to eat dog food and earn +1 live
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440033729, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -32311,6 +32335,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1887291426, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: press "e" to eat eggs and earn +1 live
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887291426, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -32325,6 +32353,10 @@ PrefabInstance:
     - target: {fileID: 1887291426, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_enableVertexGradient
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052150199, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
+      propertyPath: m_text
+      value: press "e" to eat eggs and earn +1 live
       objectReference: {fileID: 0}
     - target: {fileID: 2052150199, guid: daab579ea0c66f74f99136152c09bda8, type: 3}
       propertyPath: m_fontColor.b
@@ -70894,7 +70926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'press "e" to eat cheese and earn +1 life
+  m_text: 'press "e" to eat cheese and earn +1 live
 
 '
   m_isRightToLeft: 0
